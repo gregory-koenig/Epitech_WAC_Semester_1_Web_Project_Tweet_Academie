@@ -1,0 +1,54 @@
+.conteneur{
+	display: flex;
+	flex-direction: column;
+	background-color: #59A2EA;
+	height: auto;
+	border-width:2px;
+	border-style: double;
+	border-color: black;
+}
+.titre{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.content_titre {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+
+.affich{
+	text-align: center;
+}
+
+
+
+
+
+/*h1{
+	background color:blue;
+	width: 100%;
+  	height: 100px;
+	border-width:2px;
+	border-style: double;
+	border-color: white;
+	text-align: center;
+
+	
+}
+#lienprofil{
+	text-align: left;
+	padding-top: 80px;
+}
+#deco{
+	text-align: right;
+	padding-top: 80px;
+}
+#username{
+	text-align: center;
+	padding-top: 80px;
+}*/

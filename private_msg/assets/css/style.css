@@ -1,0 +1,79 @@
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    overflow: auto;
+}
+
+p {
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.user_directmessage {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.user_content, .user_created_date {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dest_directmessage {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.dest_username {
+    margin-right: 10px;
+}
+
+.dest_theme {
+    background: lightgray;
+}
+
+.user_theme {
+    max-width: 80%;
+    color: white;
+    background: dodgerblue;
+}
+
+#textarea_content {
+    width: 100%;
+}
+
+.div_submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_loader {
+    margin-bottom: 10%;
+    margin-left: 50%;
+}
+
+#conversation {
+    overflow: auto;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: floralwhite;
+}
+
+@media screen and (max-width: 960px) and (min-width: 480px)
+{
+    #conversation {
+        height: 120px;
+    }
+}
+
+@media screen and (max-device-width: 480px)
+{
+    #conversation {
+        height: 175px;
+    }
+}

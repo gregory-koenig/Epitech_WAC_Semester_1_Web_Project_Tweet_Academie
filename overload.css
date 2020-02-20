@@ -1,0 +1,94 @@
+/*.unslider-nav{
+	display: none;
+}*/
+.lien{
+	padding-top: 200px;
+}
+.affich{
+	text-align: center;
+	background-color: white;
+}
+.dropdown-header {
+  display: block;
+  text-align: center;
+  padding: 3px 20px;
+  font-size: 20px;
+  /*line-height: 1.42857143;*/
+  color: blue;
+  /*white-space: nowrap;*/
+
+}
+.purple{
+	background-image: url("ban.jpg");
+  width: 100%;
+  height: 100px;
+	background-repeat: repeat;
+	border-width:2px;
+	border-style: double;
+	border-color: black;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.link1{
+	
+	font-style: bold;
+	font-size: 15px;
+	padding-right: 40px;
+	
+	
+	
+	
+}
+.link2{
+	
+	font-size: 15px;
+	padding-right: 40px;
+	
+}
+.link3{
+	
+	font-size: 15px;
+}
+a:link{
+	color: #3543C1;
+}	
+a:visited{
+	color: #000D7D;
+}
+.form {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  display:flex;
+  justify-content:space-between;
+  flex-direction:column;
+  padding-top: 300px;
+}
+  .pa{
+  	text-align: center;
+  }
+  .co{
+  	background-color: #337ab7;
+  }
+  .my-slider {
+  	align-items: center;
+   width: 100%;
+   height: 100px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+
+.my-slider ul {
+   
+   width: 90%;
+   height: 100px;
+   padding:10; margin:20;
+   list-style: none;
+}
+.my-slider li {
+   float: left;
+   padding-right: 20px;
+}

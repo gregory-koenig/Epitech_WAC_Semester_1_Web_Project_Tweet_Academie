@@ -1,0 +1,17 @@
+.container {
+    overflow: auto;
+}
+
+#textarea_content {
+    width: 100%;
+}
+
+.div_submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_loader {
+    margin-bottom: 10%;
+    margin-left: 50%;
+}

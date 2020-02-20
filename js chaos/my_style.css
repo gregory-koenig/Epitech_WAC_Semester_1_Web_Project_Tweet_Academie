@@ -1,0 +1,47 @@
+* {
+	font-size : 12px;
+	font-family : Helvetica, sans-serif;
+}
+
+#submit {
+	border : 5px solid black;
+	border-radius : 5px;
+	text-shadow : 1px 1px;
+}
+
+form {
+	margin : 150px;
+}
+
+/*.container {
+	display : flex;
+}*/
+
+
+#nom:hover, #sexe:hover, #prenom:hover, #mail:hover, #mdp:hover, #date:hover, #pseudo:hover, #ville:hover, #cpostal:hover, #submit:hover {
+	background-color: #b3ccff;
+}
+
+#nom, #prenom, #mdp, #pseudo, #ville,#cpostal,#sexe,#mail, #submit {
+	cursor : pointer;
+}
+
+/*h1 {
+	font-size : 25px;
+	width : 350px;
+	margin : auto;
+}*/
+
+.form:nth-of-type(3n+1) .field{
+	border : 2px dotted blue;
+}
+
+.form label {
+	width: 350px;
+}
+
+span {
+	font-family : "Lucida Console", sans-serif;
+	font-style : italic;
+}
+

@@ -1,0 +1,78 @@
+#defaultImg {
+	width : 35px;
+	height: 35px;
+	border-radius: 100%;
+	margin-right: 25px;
+}
+
+.onFocus {
+	height: 100px;
+}
+
+.noFocus {
+	height: 45px;
+}
+
+#btnTweeter {
+	color: #56b8f5;
+	border-radius: 30px;
+	width: 100px;
+	margin-left: 200px;
+	color: white;
+}
+
+.tweet-box {
+	margin-top: 300px;
+	display: flex;
+	justify-content: center;
+	backgroud-color: #e6ecff;
+}
+
+#textBox {
+	width: 500px;
+	height: 45px;
+	border: 2px #9fd7f9 solid;
+	border-radius: 10px;
+	font-color: blue;
+}
+
+#textBox:focus { 
+    height: 100px;
+}
+
+#textBox::placeholder {
+  color: #4d79ff;
+}
+
+#upload {
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	position: absolute;
+	opacity: 0;
+}
+
+#uploadImg {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+}
+
+#uploadImg:hover, #retweetImg:hover, #likeImg:hover, #replyImg:hover {
+	cursor: pointer;
+}
+
+.uploadBox {
+	position: relative;
+	margin: 10px;
+}
+
+#retweetImg, #likeImg, #replyImg {
+	width: 30px;
+	height: 30px;
+	margin-left: 20px
+}
+
+#replyImg {
+	margin-left: 60px;
+}
